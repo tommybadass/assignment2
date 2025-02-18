@@ -1,0 +1,41 @@
+/* Body styling: we want it clean and simple */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  transition: background-color 0.5s ease; /* Smooth transition for the color change */
+}
+
+/* Style for the divs so they look spaced out nicely */
+div {
+  margin-bottom: 20px;
+}
+
+/* Buttons that will change colors when clicked */
+button {
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  font-size: 16px;
+}
+
+/* Adding a little effect when hovering over the buttons */
+button:hover {
+  background-color: #45a049;
+}
+
+/* Styling for the input fields and dropdown, make them look neat */
+select, input {
+  padding: 8px;
+  margin-top: 5px;
+}
+
+/* Make the images responsive so they fit the page */
+img {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}

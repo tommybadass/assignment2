@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <!-- Linking to the CSS for styling -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Linking to the JavaScript file with 'defer' to load the script after HTML content -->
+    <script defer src="js/scripts.js"></script>
+</head>
+<body>
+    <div>
+        <p id="myStudentId"></p> <!-- Display student ID here -->
+    </div>
+
+    <!-- Input where the user will type a number to change the color -->
+    <div>
+        <label for="customNumber">Enter number from 1 to 100:</label>
+        <input id="customNumber" type="number" placeholder="Enter number" />
+    </div>
+
+    <!-- Buttons to trigger color changes -->
+    <div>
+        <button class="custColor">Change custom color</button>
+        <button class="randColor">Change random color</button>
+    </div>
+
+    <!-- Dropdown for selecting an image -->
+    <div>
+        <label for="imageSelect">Select Image</label>
+        <select id="imageSelect">
+            <option value="">Please choose…</option>
+        </select>
+    </div>
+
+    <!-- Image display area, initially hidden -->
+    <div>
+        <img id="images" src="" alt="Selected Image" hidden />
+    </div>
+</body>
+</html>
