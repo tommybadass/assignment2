@@ -58,7 +58,7 @@ function changeRandomColor() {
 
     // Set the background color to the randomly chosen color
     document.body.style.backgroundColor = color;
-    studentIdElement.textContent = 'Student ID: 200590277'; // Replace with your actual student ID
+    studentIdElement.textContent = 'Student ID: 200590277'; 
 }
 
 // This function populates the select dropdown with options
